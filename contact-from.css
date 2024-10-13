@@ -1,0 +1,54 @@
+body{
+    background: #cad2c5;
+}
+
+.contact-from{
+    display: flex;
+    margin: 20px auto;
+    font-family: "Poppins", sans-serif;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+
+.contact-from label{
+    display: block;
+    margin: 5px 0;
+}
+.contact-from input, textarea, button{
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #cad2c5;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-from .contact-from-information1{
+    background-color: #1982c4;
+    width: 60%;
+    padding: 10px 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contact-from .contact-from-information1 i{
+    margin: 0 10px 0 0;
+    font-size: 24px;
+   
+}
+.contact-from .contact-from-information2{
+    background-color: #a72ce8;
+    width: 90%;
+    padding: 40px 40px;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contact-from button{
+    background-color: #0081a7;
+    padding: 12px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contact-from button:hover{
+    background-color: #00afb9;
+}
